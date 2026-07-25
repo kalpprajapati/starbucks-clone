@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Open Sans",sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    background: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 40px;
+    
+    box-shadow:0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+/* left side */
+.left-nav{
+    display: flex;
+    align-items: center;
+    gap: 40px
+}
+
+.logo{
+    width: 55px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.nav-link{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.nav-link a:hover{
+    color: #00754a;
+}
+
+/* right side */
+.right-nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.store{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+}
+
+.store a{
+    text-decoration: none;
+    color: black;
+}
+
+.store:hover{
+    color: #00754a;
+    cursor: pointer;
+}
+
+/* Buttons */
+.sign-btn{
+    padding: 8px 18px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+    /* transition: 3s; */
+}
+
+.sign-btn:hover{
+    background: #f2f2f2;
+}
+
+.join-btn{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 30px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    /* transition: 3s; */
+}
+
+.join-btn:hover{
+    background: #00754a;
+}
+
+/* Banner */
+.banner{
+    background-color: #32462f;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+}
+
+.banner h2{
+    height: 52px;
+    font-size: 19px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.banner button{
+    margin: 0px 0px 0px 15px;
+    padding: 2px 12px;
+    background: transparent;
+    color: white;
+    font-size: 19px;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-weight: 600;
+}
+
+.hero{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 100%;
+    /* background-color: #006242; */
+    display: flex;
+    padding: 0px 95px;
+    gap: 0;
+}
+
+.hero-img{
+    width: 50%;
+}
+
+.hero-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content{
+    width: 50%;
+    color: white;
+    background-color: #006242;
+    padding: 35px 50px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.hero-content h2{
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.hero-content p{
+    font-size: 19px;
+    line-height: 1.5;
+    max-width: 600px;
+    font-weight: 550;
+}
+
+
+.hero-content button{
+    margin-top: 32px;
+    padding: 7px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.hero2{
+    margin-top: 32px;
+    width: 100%;
+    background-color: #006242;
+    display: flex;
+}
+
+.hero3{
+    margin-top: 32px ;
+    width: 100%;
+    background-color: #006242;
+    display: flex;
+    
+}
+
+footer{
+    padding: 0px 95px; 
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.foot-panel{
+    padding: 24px 24px;
+    height: 400px;
+    display: flex;
+    text-align: left;
+}
+
+ul p{
+    height: 28px;
+    width: 250px;
+    font-size: 19px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.foot-panel ul a{
+    height: 40px;
+    width: 190px;
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+    padding: 8px 0px;
+    margin: 0px 0px 8px;
+    display: block;
+    cursor: pointer;
+
+}
+
+.foot-panel2{
+    border-top: 1px solid #e0e0e0; 
+    padding: 24px 24px;
+    height: 450px;
+}
+
+.socials{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.panel2-point a{
+    color: black;   
+    padding: 15px 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.copyright{
+    color: gray;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
